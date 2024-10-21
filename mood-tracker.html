@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker - Bright Mind</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mood Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="chat.html">Live Chat</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="mood-tracker.html">Mood Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Log Your Mood</h2>
+        <form id="moodForm">
+            <label for="mood">How are you feeling today?</label>
+            <select id="mood">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="anxious">Anxious</option>
+                <option value="angry">Angry</option>
+                <option value="neutral">Neutral</option>
+            </select>
+            <button type="submit">Log Mood</button>
+        </form>
+        <div id="moodChart"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bright Mind. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
